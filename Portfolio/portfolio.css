@@ -1,0 +1,33 @@
+#mainHead img {
+  height: 100%;
+  width: 100%;
+}
+
+#mainHead .port-item {
+  width: 30%;
+}
+
+#mainHead .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bg-black {
+  background: black;
+  color: #fff;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 4em !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  body {
+    background-color: black;
+  }
+  img {
+    filter: grayscale(20%);
+  }
+}
